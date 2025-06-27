@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <p p="outPutText"></p>
+
+        <script>
+            var text1 ="4";
+            var text2 ="5";
+
+            var num1 =stringToNumber(text1);
+            var num2=stringToNumber(text2);
+            
+            document.getElementById("outPutText").innerHTML= num1 + num2;
+
+             function stringToNumber(text){
+                return paraseInt(text);
+             }
+
+        </script>
+    </body>
+</html>
